@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cesar Bilingüe Imparable - Dashboard</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f5f5;margin:0;padding:30px}
+.container{max-width:1200px;margin:auto;background:white;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.1)}
+.hdr{background:#fff;border-bottom:4px solid #D0112B;padding:20px 24px;display:flex;justify-content:space-between;align-items:center}
+.hdr-title{font-size:28px;font-weight:700;color:#1a1a1a}
+.hdr-sub{font-size:13px;color:#666}
+.hdr-logos{display:flex;align-items:center;gap:24px}
+.logo-box img{height:60px;width:auto}
+.content{padding:24px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.kpi{background:#fafafa;padding:16px;border-radius:10px}
+.label{font-size:12px;color:#666;text-transform:uppercase}
+.value{font-size:36px;font-weight:bold}
+.red{color:#D0112B}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="hdr">
+<div>
+<div class="hdr-title">Cesar Bilingüe, Imparable</div>
+<div class="hdr-sub">Tablero actualizado · 142 docentes únicos · 86.1% de avance</div>
+</div>
+<div class="hdr-logos">
+<div class="logo-box">
+<img src="LOG_UN_GENERAL_PRINCIPAL.png" alt="Universidad del Norte">
+</div>
+<div class="logo-box">
+<img src="DrummondLTDOriginal (1).png" alt="Drummond">
+</div>
+</div>
+</div>
+
+<div class="content">
+<div class="kpis">
+<div class="kpi"><div class="label">Inscritos únicos</div><div class="value">142</div></div>
+<div class="kpi"><div class="label">Meta</div><div class="value">165</div></div>
+<div class="kpi"><div class="label">Faltan</div><div class="value red">23</div></div>
+<div class="kpi"><div class="label">Avance</div><div class="value">86.1%</div></div>
+</div>
+</div>
+</div>
+</body>
+</html>
